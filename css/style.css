@@ -68,9 +68,12 @@ img{
 @media screen and (min-width: 992px){
     figure{
         border-radius: 0;
+        width: 70%;
+        margin: auto;
     }
     figure:nth-child(3n){
         grid-column: 1 / span 2;
+        
     }
 }
 @media (prefers-reduced-motion){
